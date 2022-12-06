@@ -6,6 +6,7 @@ import {MdComputer} from 'react-icons/md'
 const About = () => {
     return (
         <section id='about'>
+            <br />
             <h5>Get To Know</h5>
             <h2>About Me</h2>
         <div className="container about__container">
@@ -15,26 +16,21 @@ const About = () => {
                 </div>
             </div>
             
-            <div className="about__container">
+            <div className="about__content">
                 <div className="about__cards">
                     <article className="about__card">
                         <MdComputer className="about__icon"/>
                         <h5>Studying Computer Science</h5>
                         <small>At Brigham Young University</small>
                     </article>
-                    
-                     <article className="about__card">
-                        <MdComputer className="about__icon"/>
-                        <h5>Studying Computer Science</h5>
-                        <small>At Brigham Young University</small>
-                    </article>
-                    
-                     <article className="about__card">
-                        <MdComputer className="about__icon"/>
-                        <h5>Studying Computer Science</h5>
-                        <small>At Brigham Young University</small>
-                    </article>
                 </div>
+                
+                <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste minima sunt vero 
+                sint adipisci magni cum, eos, sapiente ad amet iusto porro totam numquam eius maiores 
+                laboriosam quos sequi dolorem.
+                </p>
+
             </div>
         </div>
         </section> 
