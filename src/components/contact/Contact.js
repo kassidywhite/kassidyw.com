@@ -14,8 +14,6 @@ const Contact = () => {
     };
     return (
         <section id='contact'>
-            <br />
-            <h5>Get in Touch</h5>
             <h2>Contact Me</h2>
             
             <div className="container contact__container">
@@ -23,17 +21,7 @@ const Contact = () => {
                     <article className="contact__option">
                         <AiOutlineMail className="contact__option-icon"/>
                         <h4>Email</h4>
-                        <a href="mailto:kassidywhite514@gmail.com">Send a Message</a>
-                    </article>
-                    <article className="contact__option">
-                        <AiOutlineMail className="contact__option-icon"/>
-                        <h4>Email</h4>
-                        <a href="mailto:kassidywhite514@gmail.com">Send a Message</a>
-                    </article>
-                    <article className="contact__option">
-                        <AiOutlineMail className="contact__option-icon"/>
-                        <h4>Email</h4>
-                        <a href="mailto:kassidywhite514@gmail.com">Send a Message</a>
+                        <a href="mailto:kassidycodes@gmail.com">Send a Message</a>
                     </article>
                 </div>
                 <form ref={form} onSubmit={sendEmail}>

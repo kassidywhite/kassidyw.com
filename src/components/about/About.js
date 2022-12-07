@@ -6,7 +6,6 @@ import {MdComputer} from 'react-icons/md'
 const About = () => {
     return (
         <section id='about'>
-            <br />
             <h5>Get To Know</h5>
             <h2>About Me</h2>
         <div className="container about__container">
@@ -33,9 +32,11 @@ const About = () => {
                 </div>
                 
                 <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste minima sunt vero 
-                sint adipisci magni cum, eos, sapiente ad amet iusto porro totam numquam eius maiores 
-                laboriosam quos sequi dolorem.
+                Hi there! My name is Kassidy White. I'm a freshman studying Computer Science at Brigham Young University. 
+                I have a love and passion for coding. I discovered this early on in Elementary School, while teaching myself through Khan Academy.
+                As I progressed to High School, I took as many Computer Science classes as possible. My senior year, 
+                I was even able to participate in a web development internship for Summit County Utah. I can't wait to explore more and grow my 
+                experience in Software Development.
                 </p>
                 
                 <a href="#contact" className="btn btn-primary">Let's Talk</a>
