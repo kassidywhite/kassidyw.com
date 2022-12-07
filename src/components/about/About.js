@@ -17,11 +17,24 @@ const About = () => {
             </div>
             
             <div className="about__content">
+                
                 <div className="about__cards">
                     <article className="about__card">
                         <MdComputer className="about__icon"/>
-                        <h5>Studying Computer Science</h5>
-                        <small>At Brigham Young University</small>
+                        <h5>Studying</h5>
+                        <small>Computer Science</small>
+                    </article>
+                    
+                    <article className="about__card">
+                        <MdComputer className="about__icon"/>
+                        <h5>Worked in</h5>
+                        <small>Web Programming</small>
+                    </article>
+                    
+                    <article className="about__card">
+                        <MdComputer className="about__icon"/>
+                        <h5>Studying</h5>
+                        <small>Computer Science </small>
                     </article>
                 </div>
                 
